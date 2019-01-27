@@ -1,0 +1,48 @@
+{
+  "pollsList": [
+    {
+      "id": 0,
+      "title": "Lead",
+      "name": [
+        {
+          "nameOf": "Tom",
+          "noOfVotes": 5
+        },
+        {
+          "nameOf": "ABCC",
+          "noOfVotes": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Analyst",
+      "name": [
+        {
+          "nameOf": "Dan",
+          "noOfVotes": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tester",
+      "name": [
+        {
+          "nameOf": "Anney",
+          "noOfVotes": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": [
+        {
+          "nameOf": "Vratika",
+          "noOfVotes": 2
+        }
+      ],
+      "title": "Manager"
+    }
+  ]
+}

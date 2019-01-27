@@ -1,0 +1,22 @@
+.poll-table {
+    background-color: #343a40;
+    margin: 0px;
+    max-width: inherit;
+    color: #dfd4d4;
+    font-weight: 400;
+    padding-top: 5%;
+}
+
+.back {
+    margin-bottom: 2%;
+    margin-left: 23%;
+}
+
+.submit {
+    margin-left: 44%;
+    margin-top: 5%;
+}
+
+.card-title, .card-text {
+    color: Black;
+}

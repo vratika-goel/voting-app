@@ -1,0 +1,50 @@
+.jumbotron {
+    margin: auto;
+    width: 70%;
+    padding-top: 2em;
+    background-color: #303d4a;
+}
+
+.appiness-logo {
+    height: 30%;
+    width: 30%;
+}
+
+.appiness-logo-container {
+    text-align: center;
+}
+
+.sign-in {
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.rule, .sign-in {
+    color: white;
+}
+
+.btn-primary-outline {
+    background-color: #1ab2cd;
+    background-position: center;
+    border-color: #3f4344;
+    border-radius: 15px;
+    color: #fcfdfd;
+    position: absolute;
+    left: 45%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition-duration: 0.4s;
+    box-shadow: 0 0 4px #999;
+  }
+
+.btn-primary-outline:hover {
+    background-color: #685c79;
+    color: white;
+}
+
+.btn-primary-outline:active {
+    background-color:#1f3154;
+    background-size: 100%;
+    transition: background 0s;
+}

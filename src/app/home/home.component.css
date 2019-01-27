@@ -1,0 +1,33 @@
+.add-a-poll {
+    background-color: #343a40;
+    margin: auto;
+    overflow: auto;
+}
+
+.card-container {
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+.quote {
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
+
+.poll-header {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.title, .name {
+    max-width: 50%;
+}
+
+blockquote {
+    color: #dfd4d4;
+    font-weight: 400;
+}
+
+.existingPolls {
+    float: right;
+}

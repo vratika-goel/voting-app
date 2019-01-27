@@ -1,0 +1,28 @@
+<div class="container poll-table">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{dataToDisplay.title}}</h5>
+          <p class="card-text">I would like to vote for:</p>
+          <form [formGroup]="form" (ngSubmit)="onSubmit()" >
+            <div class="form-group">
+              <label for="members"></label>
+              <select formControlName="voteFor" class="form-control" name="voteFor" id="members">
+                <option value="">--Select--</option>
+                <option value="{{n}}" *ngFor="let n of nameListToDisplay">{{n}}</option>
+              </select>
+              <button class="btn btn-primary submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <canvas baseChart [chartType]="'pie'" [datasets]="pieChartData" [labels]="nameListToDisplay" [options]="pieChartOptions"
+        [legend]="true" [colors]="pieChartColor" (chartClick)="onChartClick($event)">
+      </canvas>
+    </div>
+    <!-- <button class="btn btn-secondary back" (click)="_backToList()">Back</button> -->
+  </div>
+</div>
